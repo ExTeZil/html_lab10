@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f() {
+        var lang =prompt("sgdh");
+        switch (lang) {
+            case "ua":
+                var array = ['Пн','Вт','Ср','Чт','Пт','Сб','Нд.'];
+                break;
+            case "en":
+                var array = ['Mn','Ts','Wd','Th','Fr','St','Sn.'];
+                break;
+        }
+        alert(array);
+    }
+</script>
+</body>
+<form>
+    <input type="button" value="Задача 2" onclick="f()">
+</form>
+</html>
